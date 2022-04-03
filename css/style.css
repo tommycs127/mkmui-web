@@ -182,19 +182,18 @@ body {
 .footer {
   bottom: 0;
   width: 100vw;
-  padding: 0;
-  height: 80px;
   line-height: 25px;
   text-align: center;
   background: #ca6095;
   color: whitesmoke;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .footer a {
   color: whitesmoke;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
 }
 
 .fa-download {
