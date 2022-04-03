@@ -105,24 +105,31 @@ body {
   font-size: 1.2rem;
 }
 
-.main-content .section .is-largest {
-  font-size: 2rem;
+.main-content .section .quote {
+  font-size: 2.5rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 1408px) {
+  .main-content .section .quote {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 1215px) {
-  .main-content .section .is-largest {
-    font-size: 1.5rem;
+  .main-content .section .quote {
+    font-size: 1.75rem;
   }
 }
 
 @media (max-width: 1023px) {
-  .main-content .section .is-largest {
-    font-size: 1.375rem;
+  .main-content .section .quote {
+    font-size: 1.45rem;
   }
 }
 
 @media (max-width: 768px) {
-  .main-content .section .is-largest {
+  .main-content .section .quote {
     font-size: 1.2rem;
   }
 }
