@@ -196,6 +196,11 @@ body {
   padding-right: 0.25em;
 }
 
+.footer .column {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
 .fa-download {
   color: #43485c;
 }
