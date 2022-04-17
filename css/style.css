@@ -84,6 +84,10 @@ body {
   color: #1f2c6c;
 }
 
+.hero .hero-foot .links span.icon-text span.icon {
+  display: inline-block;
+}
+
 .main-content {
   padding-top: 2rem;
   color: #3c4172;
@@ -95,6 +99,9 @@ body {
   margin-top: 1em;
 }
 
+.main-content p.paragraph.no-indent {
+  text-indent: 0;
+}
 
 .main-content .section {
   padding: 30px;
@@ -155,6 +162,11 @@ body {
   padding-bottom: 30px;
 }
 
+.main-content a.button.is-large span.icon-text,
+.hero .hero-foot .links span.icon-text {
+  line-height: inherit;
+}
+
 .main-content .youtube-wrapper {
   float: none;
   clear: both;
@@ -171,6 +183,13 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.button.is-mk {
+  background-color: hotpink;
+  border-color: transparent;
+  color: #fff;
+  
 }
 
 @media screen and (max-width: 768px) {  
