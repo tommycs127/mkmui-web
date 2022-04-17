@@ -88,6 +88,16 @@ body {
   display: inline-block;
 }
 
+.icon-fandom-heart-logo {
+  width: 0.71875em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
 .main-content {
   padding-top: 2rem;
   color: #3c4172;
@@ -239,6 +249,10 @@ body {
 
 .fa-brands.fa-discord {
   color: #5865f2;
+}
+
+.fa-solid.fa-fire {
+  color: #fa005a;
 }
 
 .fa-brands.fa-instagram {
