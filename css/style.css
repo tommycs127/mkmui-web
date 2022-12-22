@@ -23,7 +23,7 @@ body {
   padding-bottom: 30px;
 }
 
-.columns.is-centered {
+.main-content .columns.is-centered {
   display: flex;
 }
 
